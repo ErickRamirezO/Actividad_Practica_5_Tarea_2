@@ -1,0 +1,131 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+
+  text-align: center;
+}
+.App{
+  width: 100%;
+
+  color: black;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/*formulario*/
+/*nombre*/
+.ContenedorFormulario{
+  width: 100%;
+  
+}
+form{
+  margin-top: 50px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+ 
+}
+form > div{
+  border-radius: 30px;
+  border: 1px solid rgb(206, 202, 202);
+  margin: auto;
+  margin-top: 50px;
+  width: 40%;
+  height: 300px;
+  font-size: 15px;
+
+}
+form input, select{
+
+  margin: auto;
+  width: 50%;
+  color: black;
+  height: 30px;
+  
+}
+.datos_cliente {
+  
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.Comida-disponible{
+  display: flex;
+}
+.Comida-disponible>div{
+  width: 45%;
+  margin-left: auto;
+}
+.Comida-disponible img{
+  width: 90%;
+  height: 70%;
+  margin-top: 15%;
+  border-radius: 30px;
+}
+
+.datos_cliente:focus {
+  border-color: #007bff; 
+}
+
+.ContenedorPedidos{
+ 
+  border: 1px solid rgb(212, 201, 201);
+  width: 45%;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 5%;
+  padding-bottom: 1%;
+}
+.ContenedorPedidos ul{
+  width: 80%;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.btn-submit{
+  background-color: #0875c3;
+  color:white;
+}
